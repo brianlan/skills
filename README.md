@@ -15,8 +15,11 @@ Reviews a code scope and **surgically removes low-value defensive checks** while
 These skills are installable directly from this repository:
 
 ```bash
-npx skills add brianlan/skills
+# Recommended: install globally for the agents you use
+npx skills add brianlan/skills -g -a claude-code codex opencode pi
 ```
+
+> `-g` installs globally (available in all your projects). `-a` targets specific agents — `pi` is the identifier for pi-agent. Adjust the `-a` list to match the agents you actually use.
 
 ## License
 
