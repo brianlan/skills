@@ -10,16 +10,13 @@ Refactors existing code so its **core workflow is immediately visible** at the t
 ### reduce-defensive-validation
 Reviews a code scope and **surgically removes low-value defensive checks** while preserving behavior, interfaces, and regression tests. It makes the happy path readable and trustworthy, keeping only the guards that genuinely protect semantics and contracts instead of checks that merely obscure the real logic.
 
----
-
-These skills are installable directly from this repository:
+## Installation
 
 ```bash
-# Recommended: install globally for the agents you use
 npx skills add brianlan/skills -g -a claude-code codex opencode pi
 ```
 
-> `-g` installs globally (available in all your projects). `-a` targets specific agents — `pi` is the identifier for pi-agent. Adjust the `-a` list to match the agents you actually use.
+> `-g` installs globally (available in all your projects). `-a` targets the specific agents you use.
 
 ## License
 
