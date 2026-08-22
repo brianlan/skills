@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Create Issue"
+  short_description: "Draft or publish focused GitHub issues"
+  default_prompt: "Use $github-create-issue to draft a focused GitHub issue from this discussion."

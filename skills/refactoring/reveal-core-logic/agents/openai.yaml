@@ -1,0 +1,7 @@
+interface:
+  display_name: "Reveal Core Logic"
+  short_description: "Refactor code to make its core workflow obvious"
+  default_prompt: "Use $reveal-core-logic to refactor this code so its core workflow is immediately visible."
+
+policy:
+  allow_implicit_invocation: true

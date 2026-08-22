@@ -1,0 +1,4 @@
+interface:
+  display_name: "Break Down Requirement into Issues"
+  short_description: "Turn a large specification into ordered GitHub issues"
+  default_prompt: "Use $breakdown-requirement-into-issues to draft a traceable, dependency-ordered GitHub issue plan from this specification."

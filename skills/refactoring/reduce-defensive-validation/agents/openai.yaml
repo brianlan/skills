@@ -1,0 +1,7 @@
+interface:
+  display_name: "Reduce Defensive Validation"
+  short_description: "Remove low-value validation without changing behavior"
+  default_prompt: "Use $reduce-defensive-validation to remove low-value defensive checks from this code while preserving behavior."
+
+policy:
+  allow_implicit_invocation: true

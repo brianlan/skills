@@ -1,7 +1,6 @@
 ---
 name: reveal-core-logic
 description: Refactor existing code so its core workflow is immediately visible and implementation details unfold through coherent semantic layers.
-disable-model-invocation: true
 ---
 
 # Reveal Core Logic
@@ -307,4 +306,3 @@ Finish by briefly reporting:
 * meaningful boundaries preserved or repaired;
 * any audited sites intentionally left unchanged and why;
 * the checks used to verify behavior.
-

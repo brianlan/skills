@@ -1,0 +1,7 @@
+interface:
+  display_name: "Clarify, Evaluate, and Plan"
+  short_description: "Clarify a code change into an issue-ready plan"
+  default_prompt: "Use $clarify-eval-and-plan to clarify this request against the codebase and produce an issue-ready plan."
+
+policy:
+  allow_implicit_invocation: false

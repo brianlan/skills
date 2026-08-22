@@ -1,7 +1,6 @@
 ---
 name: clarify-eval-and-plan
 description: Clarify a feature or bug request, inspect the codebase read-only, and produce an issue-ready plan through a user-confirmed interactive flow.
-disable-model-invocation: true
 ---
 
 # Clarify, Evaluate, and Plan

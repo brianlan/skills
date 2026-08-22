@@ -1,7 +1,6 @@
 ---
 name: reduce-defensive-validation
 description: Review and surgically refactor a specified code scope to remove low-value defensive validation while preserving behavior, interfaces, and regression tests.
-disable-model-invocation: true
 ---
 
 # Reduce Defensive Validation
@@ -489,4 +488,3 @@ Optimize for:
 The target is not validation-free code.
 
 The target is code where each remaining defensive branch earns its place.
-
